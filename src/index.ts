@@ -1,4 +1,4 @@
-import { greet } from './greeter';
+import { greet } from './greetings';
 import { userInfo } from 'os';
 
 const hours = new Date().getHours();
