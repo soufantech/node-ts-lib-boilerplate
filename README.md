@@ -8,4 +8,4 @@ A TypeScript Node boilerplate.
   - `src/index.ts`
   - `src/greetings.ts`
   - `src/__tests__/greetings.test.ts`
-4. Delete `yarn.lock` and run `yarn` to install packages;
+4. Delete `yarn.lock` and `package-lock.json`, if any, and run `yarn` to install packages;
