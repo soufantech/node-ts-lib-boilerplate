@@ -8,7 +8,7 @@ Clone the project with `git clone --dissociate <THIS PROJECT GIT URI> <YOUR PROJ
 
 ### **Required** overrides:
 
-You must...
+You **must**...
 
 1. update `author`, `name` and `version` in `package.json`.
 2. delete or replace demo files: `rm src/index.ts src/greetings.ts src/__tests__/greetings.test.ts`.
@@ -21,6 +21,7 @@ You might want to...
 - set the `license` field (default is `UNLICENSED`). You may also include a `LICENSE` file on the root folder.
 - set the `publishConfig.access`to `public` if your package is not meant to be published as a private package.
 - set the `private` field to `false` in order to publish the package.
+- set the `repository` field.
 - remove the `start` and `watch` commands along with the `ts-node` and `ts-node-dev` dependencies if your project is not intended to be run directly (i.e: imported as a library).
 - remove the `test` command along with the `jest`, `@types/jest` and `ts-jest` dependencies if your project is not meant to include automated tests.
 - tune `prettier` configuration on `package.json`.
