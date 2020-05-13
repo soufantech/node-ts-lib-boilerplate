@@ -23,7 +23,8 @@ You might want to...
 - set the `private` field to `false` in order to publish the package.
 - remove the `start` and `watch` commands along with the `ts-node` and `ts-node-dev` dependencies if your project is not intended to be run directly (i.e: imported as a library).
 - remove the `test` command along with the `jest`, `@types/jest` and `ts-jest` dependencies if your project is not meant to include automated tests.
-- tune `prettier` configuration on `package.json`
+- tune `prettier` configuration on `package.json`.
+- run `yarn upgrade` to generate a fresh `yarn.lock`.
 
 In addition to `package.json`, you might also want to check...
 
@@ -32,3 +33,7 @@ In addition to `package.json`, you might also want to check...
 - the test runner options on the `jest.config.js` file.
 - the linter rules in the `eslintrc.yml` file.
 - the general editor configuration on the `.editorconfig` file.
+
+## Todo:
+
+- [ ] Add and configure semantic-release.
