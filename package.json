@@ -1,16 +1,19 @@
 {
-  "name": "ts-boilerplate",
+  "name": "package-ts",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "author": "fhpriamo",
-  "license": "MIT",
+  "author": "Fábio Priamo <fabio@soufan.com.br>",
+  "license": "UNLICENSED",
   "private": true,
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access:": "restricted"
+  },
   "scripts": {
     "watch": "ts-node-dev src/index.ts",
     "start": "ts-node src/index.ts",
     "build": "tsc",
-    "test": "jest",
+    "test": "jest --detectOpenHandles --forceExit",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit && eslint ./src/**/*"
   },
