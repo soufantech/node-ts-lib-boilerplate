@@ -1,8 +1,12 @@
 {
-  "name": "package-ts",
+  "name": "@soufantech/package-ts",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "author": "Fábio Priamo <fabio@soufan.com.br>",
+  "author": {
+    "name": "Fábio Priamo",
+    "email": "fabio@soufan.com.br",
+    "url": "https://github.com/fhpriamo"
+  },
   "license": "UNLICENSED",
   "private": true,
   "types": "dist/index.d.ts",
