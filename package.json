@@ -18,10 +18,13 @@
   "scripts": {
     "watch": "ts-node-dev src/index.ts",
     "start": "ts-node src/index.ts",
-    "build": "tsc",
     "test": "jest --detectOpenHandles --forceExit",
-    "clean": "rm -rf dist",
-    "lint": "tsc --noEmit && eslint ./src/**/*"
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "lint-hard": "tsc --noEmit && yarn run lint",
+    "clear": "rm -rf dist",
+    "build": "tsc",
+    "rebuild": "rm -rf dist && tsc",
+    "pre-publish": "yarn run rebuild && yarn run test --silent"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
