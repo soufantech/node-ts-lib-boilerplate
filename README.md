@@ -6,7 +6,7 @@
 
 <div align="center">
   <h1>@soufantech/package-ts</h1>
-  <p>A TypeScript boilerplate for building Node packages.</p>
+  <p>A TypeScript boilerplate for building Node.js packages (and apps).</p>
 </div>
 
 <br />
@@ -20,6 +20,8 @@
 ## Setup
 
 Clone the project with `git clone --dissociate <THIS PROJECT GIT URI> <YOUR PROJECT NAME>`;
+
+If you intend to start from a clean slate, delete the `.git` directory to erase all version history and then start a new git repo with `git init`. In this case, You can also pass the `--depth 1` parameter to the above `git clone` command to avoid getting the entire git history (it will only get the latest commit).
 
 ### **Required** overrides:
 

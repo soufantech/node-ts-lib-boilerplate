@@ -1,7 +1,7 @@
 {
   "name": "@soufantech/package-ts",
   "version": "1.0.0",
-  "description": "A TypesScript boilerplate for building Node packages.",
+  "description": "A TypeScript boilerplate for building Node.js packages (and apps).",
   "keywords": [],
   "author": {
     "name": "Fábio Priamo",
