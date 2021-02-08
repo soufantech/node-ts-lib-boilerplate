@@ -1,12 +1,20 @@
 {
-  "name": "@soufantech/package-ts",
-  "version": "1.0.0",
-  "description": "A TypeScript boilerplate for building Node.js packages (and apps).",
+  "name": "@soufantech/node-ts-lib-boilerplate",
+  "version": "0.0.0",
+  "description": "SouFan's TypeScript boilerplate for Node.js libraries",
   "keywords": [],
   "author": {
-    "name": "Fábio Priamo",
-    "email": "fabio@soufan.com.br",
-    "url": "https://github.com/fhpriamo"
+    "name": "SouFan Team",
+    "email": "no-reply@soufan.com.br",
+    "url": "https://github.com/soufantech"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/soufantech/node-ts-lib-boilerplate.git"
+  },
+  "homepage": "https://github.com/soufantech/node-ts-lib-boilerplate#readme",
+  "bugs": {
+    "url" : "https://github.com/soufantech/node-ts-lib-boilerplate/issues"
   },
   "license": "UNLICENSED",
   "private": true,
