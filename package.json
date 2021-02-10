@@ -9,12 +9,12 @@
     "url": "https://github.com/soufantech"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/soufantech/node-ts-lib-boilerplate.git"
+    "type": "git",
+    "url": "https://github.com/soufantech/node-ts-lib-boilerplate.git"
   },
   "homepage": "https://github.com/soufantech/node-ts-lib-boilerplate#readme",
   "bugs": {
-    "url" : "https://github.com/soufantech/node-ts-lib-boilerplate/issues"
+    "url": "https://github.com/soufantech/node-ts-lib-boilerplate/issues"
   },
   "license": "UNLICENSED",
   "private": true,
@@ -32,24 +32,24 @@
     "prepublishOnly": "npm run rebuild && npm run test --silent"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@types/jest": "^26.0.4",
     "@types/node": "^14.0.23",
-    "@typescript-eslint/eslint-plugin": "^3.6.1",
-    "@typescript-eslint/parser": "^3.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
+    "husky": "^5.0.9",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.2",
-    "ts-node": "^8.10.2",
+    "ts-node": "^9.1.1",
     "ts-node-dev": "^1.0.0-pre.52",
-    "typescript": "^3.9.6",
+    "typescript": "^4.1.4",
     "typescript-eslint": "^0.0.1-alpha.0"
   },
   "prettier": {
