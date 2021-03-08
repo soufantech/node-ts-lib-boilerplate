@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![jest-image]][jest-url] [![npm-image]][npm-url]
+[![typescript-image]][typescript-url] [![jest-image]][jest-url] [![npm-image]][npm-url]
 
 </div>
 
@@ -58,6 +58,9 @@ In addition to `package.json`, you might also want to check...
 <div align="center">
   <sub>Built with ❤︎ by <a href="https://soufan.com.br">SouFan</a>
 </div>
+
+[typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
+[typescript-url]: "typescript"
 
 [npm-image]: https://img.shields.io/npm/v/@soufantech/node-ts-lib-boilerplate.svg?style=for-the-badge&logo=npm
 [npm-url]: https://npmjs.org/package/@soufantech/node-ts-lib-boilerplate "npm"
