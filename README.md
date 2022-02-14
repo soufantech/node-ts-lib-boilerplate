@@ -56,7 +56,7 @@ In addition to `package.json`, you might also want to check...
 ---
 
 <div align="center">
-  <sub>Built with ❤︎ by <a href="https://soufan.com.br">SouFan</a>
+  <sub>Built with ❤︎ by <a href="https://soufan.com.br">SouFan</a></sub>
 </div>
 
 [typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
