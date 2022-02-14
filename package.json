@@ -25,6 +25,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "husky install",
+    "commit": "cz",
     "start": "ts-node src/index.ts",
     "watch": "ts-node-dev src/index.ts",
     "test": "jest --pass-with-no-tests",
@@ -35,18 +36,20 @@
     "prepublishOnly": "npm run build && npm run test --silent"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^6.0.0",
+    "husky": "^7.0.4",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.5.4",
@@ -61,5 +64,10 @@
     "singleQuote": true,
     "tabWidth": 2,
     "printWidth": 120
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
