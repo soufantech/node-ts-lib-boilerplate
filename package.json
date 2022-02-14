@@ -24,6 +24,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "husky install",
     "start": "ts-node src/index.ts",
     "watch": "ts-node-dev src/index.ts",
     "test": "jest --pass-with-no-tests",
@@ -60,10 +61,5 @@
     "singleQuote": true,
     "tabWidth": 2,
     "printWidth": 120
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
